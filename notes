@@ -1,0 +1,26 @@
+# DATA COLLECTION
+
+## Tuple -> menyimpan sekumpulan nilai dengan tipe data yang berbeda
+
+let http404Error = (404, "Not Found")
+let (statusCode, statusMessage) = http404Error
+
+## Array -> menyimpan sekumpulan nilai dengan tipe data yang sama secara berurutan
+
+var someInts = [Int]()
+var shoppingList: [String] = ["Eggs", "Milk"]
+
+## Set -> menyimpan sekumpulan nilai dengan tipe data yang sama tapi tidak berurutan
+
+var letters = Set<Characters>()
+var favoriteGenres: Set = ["Classical", "Hip hop", "Jazz"]
+
+## Dictionary -> menyimpan sekumpulan nilai dengan sebuah key untuk menyimpan sebuah nilai
+
+var namesOfIntegers = [Int: String]()
+var airports: [String: String] = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]
+
+# CLOSURES
+- Lexical scope atau static scope, area dari sebuah ekspresi
+- Ketika sebuah fungsi mengakses nilai dari parent scopenya maka fungsi ini disebut dengan closure
+- Ketika sebuah fungsi menggunakan data dari hasil fungsi lain
