@@ -24,3 +24,26 @@ var airports: [String: String] = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]
 - Lexical scope atau static scope, area dari sebuah ekspresi
 - Ketika sebuah fungsi mengakses nilai dari parent scopenya maka fungsi ini disebut dengan closure
 - Ketika sebuah fungsi menggunakan data dari hasil fungsi lain
+
+# ENUM AND STRUCTURE
+
+## Enum -> tipe data umum untuk sekelompok nilai dan memungkinkan bekerja dengan nilai-nilai itu secara aman
+
+enum CompassPoint {
+  case north
+  case south
+  case east
+  case west
+}
+
+## Struct
+
+struct Resolution {
+  var width = 0
+  var height = 0
+}
+
+# PROPERTIES ON CLASS
+
+## Stored Properties, menyimpan nilai konstanta atau variabel sebagai bagian dari instance
+## Computed Properties, menghitung sebuah nilai
